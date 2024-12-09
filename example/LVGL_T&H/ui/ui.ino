@@ -76,11 +76,11 @@ void my_touchpad_read( lv_indev_drv_t * indev_driver, lv_indev_data_t * data )
       data->point.x = x;
       data->point.y = y;
 
-      USBSerial.print( "Data x " );
+      /*USBSerial.print( "Data x " );
       USBSerial.print( x );
 
       USBSerial.print( "Data y " );
-      USBSerial.println( y );
+      USBSerial.println( y );*/
   }
   else
   {   
