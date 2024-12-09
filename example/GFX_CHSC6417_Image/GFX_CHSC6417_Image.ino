@@ -33,7 +33,7 @@ void setup()
     gfx->begin();
     gfx->fillScreen(WHITE);
 
-    for (int i = 0; i <= 255; i++)
+    for (int i = 0; i <= 200; i++)
     {
         gfx->Display_Brightness(i);
         delay(5);
@@ -47,12 +47,12 @@ void setup()
     delay(1000);
 
     gfx->fillScreen(WHITE);
-    gfx->setCursor(60, 100);
-    gfx->setTextSize(5);
+    gfx->setCursor(30, 100);
+    gfx->setTextSize(6);
     gfx->setTextColor(BLACK);
     gfx->printf("Makerfabs");
-    gfx->setCursor(60, 200);
-    gfx->setTextSize(5);
+    gfx->setCursor(50, 200);
+    gfx->setTextSize(6);
     gfx->setTextColor(BLACK);
     gfx->printf("Touch me");
 
