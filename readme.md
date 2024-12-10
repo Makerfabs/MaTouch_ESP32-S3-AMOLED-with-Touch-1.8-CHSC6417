@@ -16,10 +16,11 @@ Note:
 
 ## Intruduce
 
-Product Link:[MaTouch_ESP32-S3 AMOLED with Touch 1.8 CHSC6417]()
+Product Link : [MaTouch_ESP32-S3 AMOLED with Touch 1.8 CHSC6417]()
 
 Wiki Link : [MaTouch_ESP32-S3 AMOLED with Touch 1.8 CHSC6417](https://wiki.makerfabs.com/MaTouch%20ESP32-S3%20AMOLED%20with%20Touch%201.8%27%27%20CHSC6417.html)
 
+Video Link : [Matouch ESP32S3 AMOLED 1.8" & LVGL](https://www.youtube.com/watch?v=-4QudXA8VgA)
 
 ## Features
 
