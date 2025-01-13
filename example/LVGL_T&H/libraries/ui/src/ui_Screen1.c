@@ -18,6 +18,7 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_x(ui_Arc1, -10);
     lv_obj_set_y(ui_Arc1, 40);
     lv_obj_set_align(ui_Arc1, LV_ALIGN_CENTER);
+    lv_obj_clear_flag(ui_Arc1, LV_OBJ_FLAG_CLICKABLE);      /// Flags
     lv_arc_set_value(ui_Arc1, 20);
     lv_arc_set_bg_angles(ui_Arc1, 0, 180);
     lv_arc_set_rotation(ui_Arc1, 90);
@@ -38,6 +39,7 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_x(ui_Arc2, 30);
     lv_obj_set_y(ui_Arc2, 40);
     lv_obj_set_align(ui_Arc2, LV_ALIGN_CENTER);
+    lv_obj_clear_flag(ui_Arc2, LV_OBJ_FLAG_CLICKABLE);      /// Flags
     lv_arc_set_range(ui_Arc2, 0, 40);
     lv_arc_set_value(ui_Arc2, 25);
     lv_arc_set_bg_angles(ui_Arc2, 0, 160);
